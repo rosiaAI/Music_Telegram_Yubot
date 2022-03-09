@@ -28,7 +28,7 @@ def downloadMessage(message_chat_id, message_text, int):
     elif int == 3:
         download(message_text, message_text)
         path = message_text
-    path = f'\ArtGitProgect\SIMPLESITE\{path}'
+    path = f'\Yubot111-main\{path}'
     audiofile = open(path, 'rb')
     bot.send_audio(message_chat_id, audiofile)
     audiofile.close()
@@ -105,7 +105,7 @@ def downloadListSP(link, message_chat_id):
         fullName = track + " " + nameArtist
         title = track + "." + nameArtist
         download(fullName, title)
-        path = f'\ArtGitProgect\SIMPLESITE\{title}'
+        path = f'\Yubot111-main\{title}'
         audiofile = open(path, 'rb')
         bot.send_audio(message_chat_id, audiofile)
         audiofile.close()
@@ -129,7 +129,7 @@ def downloadListYA(link, message_chat_id):
         fullName = track + " " + nameArtist
         title = track + "." + nameArtist
         download(fullName, title)
-        path = f'\ArtGitProgect\SIMPLESITE\{title}'
+        path = f'\Yubot111-main\{title}'
         audiofile = open(path, 'rb')
         bot.send_audio(message_chat_id, audiofile)
         audiofile.close()
