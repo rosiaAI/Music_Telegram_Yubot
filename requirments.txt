@@ -2,3 +2,4 @@ pyTelegramBotAPI-markups==0.0.4
 vk-api==11.9.7
 yandex-music==2.0.1
 spotipy==2.19.0
+bs4==0.0.1
