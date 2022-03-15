@@ -28,3 +28,4 @@ vk-api==11.9.7
 vk-audio==6.9
 yandex-music==2.0.1
 yarl==1.7.2
+telebot-utils==0.0.8
