@@ -1,1 +1,1 @@
-python_full_version: python-3.9.10
+python_version: python-3.9.10
